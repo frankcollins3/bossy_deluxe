@@ -1,0 +1,41 @@
+* { text-align: center; }
+
+body {
+    background-image: url('https://png.pngtree.com/background/20210715/original/pngtree-hand-drawn-fast-food-burger-fries-fried-food-gourmet-background-picture-image_1296878.jpg'); 
+    background-size: cover; background-repeat: no-repeat;
+    display: flex; justify-content: center; align-items: center;
+    flex-direction: column; min-height: 100vh;
+}
+.brown { background-color: brown; }
+.burger-bar { display: flex; flex-direction: column; }
+img { height: 85px; width: 200px; margin-top: 2em; }
+
+.progress { width: 300px; ; background-color: peachpuff; }
+.progress-bar { width: 300px; background-color: orange; }
+.btn { height: 40px; width: 90px; border: 5px solid transparent; }
+
+#bar { background-color: orange; } #bench { background-color: peachpuff;}
+
+.btn-info { border: 5px solid hotpink;}
+
+#beef { background-color: #bb5533; }
+#cheese { background-color: #ffa600; height: 10px; }
+#pickles { background-color: #384d3e; height: 10px; }
+#mayo { background-color: #f9f5e5; height: 10px; }
+#lettuce { background-color: #384d3e; height: 10px; }
+#tomatoes { background-color: #FF6347; height: 10px; }
+#lettuce { background-color: #cad8a4; height: 10px; }
+
+span { background-color: orange; color: papayawhip; font-family: 'Moon Dance', cursive; border-radius: 40%; }
+
+.Burger-Cont {
+    position: relative;
+    top: -120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+h1 { color: grey;}
